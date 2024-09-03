@@ -16,6 +16,7 @@ const Navbar = ({title}) =>{
             <p><Link to='/setting'>Setting</Link></p>
             <p><Link to='/profile'>Profile</Link></p>
             <p><Link to='/downloading'> Downloading</Link></p>
+            <p><Link to ='/login'>Login</Link></p>
           </div>
         </div>
       </header></>
