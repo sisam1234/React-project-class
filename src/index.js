@@ -11,6 +11,7 @@ import Profile from './pages/profile';
 import App from './App';
 import Document from './pages/document';
 import Login from './pages/login';
+import Register from './pages/register';
 
 
 
@@ -26,6 +27,7 @@ root.render(
           <Route path='profile'element={<Profile/>} />
           <Route path='downloading'element={<Downloading/>} />
           <Route path ='login' element={<Login/>}/>
+          <Route path ='register' element={<Register/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
